@@ -11,12 +11,6 @@
 
     <artifactId>fielder-app</artifactId>
 
-    <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>br.com.restick</groupId>
@@ -37,7 +31,7 @@
                         <path>
                             <groupId>br.com.restick</groupId>
                             <artifactId>fielder-processor</artifactId>
-                            <version>1.0-SNAPSHOT</version>
+                            <version>${project.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>

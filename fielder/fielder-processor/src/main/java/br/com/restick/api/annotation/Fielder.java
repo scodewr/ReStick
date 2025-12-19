@@ -9,5 +9,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface Fielder {
     String name();
-    String type() default "String";
+    Class<?> type() default String.class;
 }

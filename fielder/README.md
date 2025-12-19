@@ -85,7 +85,7 @@ mvn-with-exports.cmd
 * Você pode passar parâmetros extras para Maven, por exemplo:
 
 ```bash
-./mvn-with-exports.sh -pl hydrator-app
+./mvn-with-exports.sh -pl fielder-app
 ```
 
 ---
@@ -109,3 +109,8 @@ mvn clean install
 ```
 
 ---
+
+# Próximos passos:
+- Tentar utilizar a anotação @Filder em outro projeto/módulo
+- Criar classe utilitária para identificar e tratar wrappers de IDE no ProcessingEnvironment
+- Configurar IDE para reconhecer o novo campo gerado
