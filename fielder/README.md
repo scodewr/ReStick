@@ -109,8 +109,3 @@ mvn clean install
 ```
 
 ---
-
-# Próximos passos:
-- Tentar utilizar a anotação @Filder em outro projeto/módulo
-- Criar classe utilitária para identificar e tratar wrappers de IDE no ProcessingEnvironment
-- Configurar IDE para reconhecer o novo campo gerado
